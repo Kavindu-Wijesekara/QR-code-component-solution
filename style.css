@@ -14,13 +14,19 @@ body {
     font-family: "Outfit", sans-serif;
 }
 
+.attribution{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .card {
     text-align: center;
     width: 320px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 19px;
     background-color: var(--white);
-    box-shadow: opx 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 30px hsl(220, 15%, 80%);
 }
 
 .card img {
