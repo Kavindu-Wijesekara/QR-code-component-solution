@@ -8,6 +8,7 @@
 body {
     background-color: var(--lightgray);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -22,9 +23,10 @@ body {
 
 .card {
     text-align: center;
-    width: 320px;
-    padding: 15px;
-    border-radius: 19px;
+    max-width: 20rem;
+    margin: 0.625rem;
+    padding: 0.9375rem;
+    border-radius: 1.1875rem;
     background-color: var(--white);
     box-shadow: 0px 5px 30px hsl(220, 15%, 80%);
 }
